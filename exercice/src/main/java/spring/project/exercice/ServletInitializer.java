@@ -1,4 +1,4 @@
-package spring.exercice.raul;
+package spring.project.exercice;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
@@ -7,7 +7,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(RaulApplication.class);
+		return application.sources(ExerciceApplication.class);
 	}
 
 }

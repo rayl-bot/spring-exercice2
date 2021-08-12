@@ -1,10 +1,10 @@
-package spring.exercice.raul;
+package spring.project.exercice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RaulApplicationTests {
+class ExerciceApplicationTests {
 
 	@Test
 	void contextLoads() {

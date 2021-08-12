@@ -1,13 +1,13 @@
-package spring.exercice.raul;
+package spring.project.exercice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RaulApplication {
+public class ExerciceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RaulApplication.class, args);
+		SpringApplication.run(ExerciceApplication.class, args);
 	}
 
 }
