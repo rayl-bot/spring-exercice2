@@ -32,13 +32,11 @@ public class EmpleadoController {
 	    return empleadoServideImpl.listarEmpleadoNombre(nombre);
 	}
 	
-	
 	@PostMapping("/empleados")
 	public Empleado salvarCliente(@RequestBody Empleado empleado) {
 		
 		return empleadoServideImpl.guardarEmpleado(empleado);
 	}
-	
 	
 	@GetMapping("/empleados/{id}")
 	public Empleado clienteXID(@PathVariable(name="id") Long id) {

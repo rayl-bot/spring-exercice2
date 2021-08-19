@@ -8,4 +8,4 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface IEmpleadoDao extends JpaRepository<Empleado, Long>{
     public List<Empleado> findByNombre(String nombre);
-}
+}	
